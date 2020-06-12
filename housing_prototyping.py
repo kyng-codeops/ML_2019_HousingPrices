@@ -32,7 +32,7 @@ def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
 
 
 def load_housing_data(housing_path=HOUSING_PATH):
-    csv_path = os.path.join("~/", "PycharmProjects", "machine_learning_2019", housing_path, "housing.csv")
+    csv_path = os.path.join("~/", "PycharmProjects", "ML_2019_HousingPrices", housing_path, "housing.csv")
     return pd.read_csv(csv_path)
 
 
