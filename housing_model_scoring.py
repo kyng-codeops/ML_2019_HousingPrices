@@ -4,7 +4,8 @@ import numpy as np
 #
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import cross_val_score
-from sklearn.externals import joblib
+# from sklearn.externals import joblib
+import joblib
 
 
 def display_scores(target_hi, target_lo, cv_val, rmse_orig, cv_scores, title):
