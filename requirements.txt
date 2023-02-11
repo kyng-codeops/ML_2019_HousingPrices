@@ -12,7 +12,7 @@ executing==0.8.3
 fastjsonschema==2.16.1
 fonttools==4.33.3
 ipykernel==6.13.0
-ipython==8.4.0
+ipython==8.10.0
 isort==5.10.1
 jedi==0.18.1
 joblib==1.1.0
